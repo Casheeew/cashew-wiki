@@ -11,7 +11,7 @@ const projects = new Array<Project>(
     title: 'Yomitan',
     description:
       "A pop-up dictionary with flashcard integration with 25,000+ users and near 1,000 GitHub stars",
-    position: 'Developer and Codeowner',
+    position: 'Developer and Code Owner',
     type: 'Browser Extension',
     skills: ['JavaScript', 'TypeScript', 'Handlebars', 'HTML', 'CSS'],
     sourceLink: 'https://github.com/themoeway/yomitan',
