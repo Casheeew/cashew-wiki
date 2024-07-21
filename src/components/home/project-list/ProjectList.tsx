@@ -1,4 +1,3 @@
-import clsx from 'clsx';
 import ProjectItem from './ProjectItem';
 import { Project } from './types';
 
@@ -6,11 +5,12 @@ import yomitan from '@/public/images/yomitan-terms.png';
 import BaseProps from '@/types/BaseProps';
 import PageSection from '../../shared/PageSection';
 
+
+
 const projects = new Array<Project>(
   {
     title: 'Yomitan',
-    description:
-      "A pop-up dictionary with flashcard integration with 25,000+ users and near 1,000 GitHub stars",
+    description: <div><p>Pop-up dictionary with flashcard integration</p><p>boasting 25,000+ users and nearly 1,000 GitHub stars</p></div>,
     position: 'Developer and Code Owner',
     type: 'Browser Extension',
     skills: ['JavaScript', 'TypeScript', 'Handlebars', 'HTML', 'CSS'],

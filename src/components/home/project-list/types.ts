@@ -1,8 +1,9 @@
 import { ImageProps } from 'next/image';
+import { ReactNode } from 'react';
 
 export type Project = {
   title: string;
-  description: string;
+  description: string | ReactNode;
   type: string;
   position?: string;
   skills: string[];

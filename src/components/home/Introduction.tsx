@@ -15,13 +15,13 @@ const Introduction = (props: IntroductionProps) => {
       <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
         <div className="flex-1 text-center md:text-start">
           <h1 className="font-poppins font-bold text-4xl md:text-5xl leading-tight">
-            Cashew 👋
+            Son Nghiem 👋
           </h1>
           <p className="mt-4 text-base md:text-lg text-lightgrey">
-            Hi, I'm Cashew. I am a programmer, and a current student of Computer Science at KAIST.
+            Hi, I'm Son, a.k.a Cashew. I'm a programmer currently studying Computer Science at Korea Advanced Institute of Science and Technology.
           </p>
           <p className="mt-4 text-base md:text-lg text-lightgrey">
-            I'm interested in mathematics, computer science, and languages. You can reach out to me in either Vietnamese, Japanese, Korean, Chinese, or English below! 📍
+            I'm interested in mathematics, computer science, and languages. You can reach out to me in Vietnamese, Japanese, Korean, Chinese, or English below! 📍
           </p>
         </div>
 

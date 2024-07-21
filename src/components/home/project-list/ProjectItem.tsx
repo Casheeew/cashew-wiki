@@ -39,7 +39,7 @@ const ProjectItem = ({ project, right = false }: ProjectItemProps) => {
           <h3 className="text-2xl font-semibold">{project.title}</h3>
         </div>
 
-        <p className="mt-2 text-sm sm:text-base">{project.description}</p>
+        <div className="mt-2 text-sm sm:text-base">{project.description}</div>
 
         <div
           className={clsx(
