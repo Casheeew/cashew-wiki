@@ -1,6 +1,7 @@
 import About from '@/components/home/About';
 import Introduction from '@/components/home/Introduction';
 import { ProjectList } from '@/components/home/project-list';
+import { ExperienceList } from '@/components/home/experience-list';
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Introduction id="home" />
       <About id="about" />
       <ProjectList id="projects" />
+      <ExperienceList id="experiences" />
     </main>
   );
 };

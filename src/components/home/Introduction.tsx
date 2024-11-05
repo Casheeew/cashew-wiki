@@ -18,7 +18,7 @@ const Introduction = (props: IntroductionProps) => {
             Son Nghiem 👋
           </h1>
           <p className="mt-4 text-base md:text-lg text-lightgrey">
-            Hi, I'm Son, a.k.a Cashew. I'm a programmer currently studying Computer Science at Korea Advanced Institute of Science and Technology.
+            Hi, I'm Son, aka Cashew. I'm a programmer currently studying Computer Science at Korea Advanced Institute of Science and Technology.
           </p>
           <p className="mt-4 text-base md:text-lg text-lightgrey">
             I'm interested in mathematics, computer science, and languages. You can reach out to me in Vietnamese, Japanese, Korean, Chinese, or English below! 📍
